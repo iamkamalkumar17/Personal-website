@@ -5,6 +5,9 @@ body {
     align-items: center;
     background-color: #91C8E4;
 }
+.container{
+    background-color: #749BC2;
+}
 
 .container{
     display: flex-box;
