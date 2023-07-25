@@ -1,0 +1,113 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #91C8E4;
+}
+
+.container{
+    display: flex-box;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* height: 100vh; */
+    /* background-color: red; */
+}
+.title{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.intro{
+    padding-top: 10%;
+}
+.profile-img img{
+    /* height: 100px; */
+    /* width: 40%; */
+    
+    height: 25vh;
+    border: #F6F4EB solid 5px;
+    border-radius: 50%;
+}
+.center-align{
+    display: flex;
+    justify-content: center;
+}
+.intro {
+    /* font-size: 1rem; */
+    text-align: center;
+}
+
+.gap{
+    height: 25vh;
+}
+
+/* second page */
+
+
+.skill{
+    display: flex;
+}
+.skill img{
+    padding: 10%;
+    /* padding-bottom: 0; */
+
+    width: 30%;
+}
+.skill p{
+    display: block;
+    padding: 10%;
+    width: 30%;
+    text-align: left;
+}
+
+
+/* third page */
+.all-project{
+    display: flex;
+}
+
+.project img{
+    padding: 10%;
+    /* padding-bottom: 0; */
+    /* height: 70vh; */
+    width: 80%;
+}
+.project p{
+    padding: 10%;
+    padding-top: 0;
+    width: 80%;
+    text-align: center;
+}
+
+/* page 4 */
+.page-4{
+    text-align: center;
+}
+.main-link{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-link img{
+    /* width: 33%; */
+    height: 40px;
+}
+@media (max-width: 600px) {
+    /* body {
+      background-color: red;
+    } */
+    .skill{
+        display: block;
+    }
+    .skill img{
+        width: 80%;
+    }
+    .skill p{
+        padding-top: 2%;
+        width: 80%;
+        text-align: center;
+    }
+    .all-project{
+        display: block;
+    }
+  }
