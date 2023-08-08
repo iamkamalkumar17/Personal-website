@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #91C8E4;
+    color: #F6F4EB;
 }
 .container{
     background-color: #749BC2;
@@ -86,8 +87,11 @@ body {
 /* page 4 */
 .page-4{
     text-align: center;
+    margin-left: 10%;
+    width: 80%;
 }
 .main-link{
+    padding-top: 200px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -95,6 +99,7 @@ body {
     /* width: 33%; */
     height: 40px;
 }
+
 @media (max-width: 600px) {
     /* body {
       background-color: red;
